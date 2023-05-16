@@ -312,12 +312,16 @@ main{
 @media (max-width: 700px) {
     .image-top img,
     .notice-img{
-        width: 250px;
+        width: 400px;
         margin: 20px auto;
         padding: 20px;
         align-items: center;
         text-align: center;
    } 
+    
+   .notice-block{
+       box-shadow: none;
+   }
 
    .info,
    .app{
