@@ -312,7 +312,7 @@ main{
 @media (max-width: 700px) {
     .image-top img,
     .notice-img{
-        width: 400px;
+        width: 250px;
         margin: 20px auto;
         padding: 20px;
         align-items: center;
