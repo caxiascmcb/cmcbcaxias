@@ -321,6 +321,6 @@ main{
 
    .info,
    .app{
-    flex-wrap: wrap;
+    font-size: 25px;
    }
 }
