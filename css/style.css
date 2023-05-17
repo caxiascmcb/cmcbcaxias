@@ -131,8 +131,8 @@ main{
 .container{
     position: relative;
     padding: 15px;
-    max-width: 640px;
-    margin: 0 auto;
+    max-width: 750px;
+    margin: 50px auto;
 }
 
 .gallery-wrapper{
@@ -175,8 +175,8 @@ main{
 }
 
 .item{
-    width: 600px;
-    height: 400px;
+    width: 710px;
+    height: 500px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
   
