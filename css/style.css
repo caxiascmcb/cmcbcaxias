@@ -303,6 +303,10 @@ main{
    .notice-block{
        box-shadow: none;
    }
+    
+   .container{
+       display: none;
+    }
 
    .info,
    .app{
