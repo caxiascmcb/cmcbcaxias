@@ -310,8 +310,7 @@ main{
 
    .info,
    .app{
-     align-items: center;  
-     flex-wrap: wrap;
+     align-items: center; 
     font-size: 25px;
    }
 }
