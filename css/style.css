@@ -131,22 +131,13 @@ main{
 .container{
     position: relative;
     padding: 15px;
-    max-width: 740px;
+    max-width: 640px;
     margin: 0 auto;
 }
 
 .gallery-wrapper{
     overflow-x: auto;
 }
-
-.gallery{
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 15px;
-}
-
-
-
 .arrow-left,
 .arrow-right{
     position: absolute;
@@ -157,49 +148,39 @@ main{
     font-size: 20px;
     line-height: 250px;
     width: 40px;
-    text-align: center;
     color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
     cursor: pointer;
     border: none;
-    background: linear-gradient(to left, transparent 0%, black 200%);
+}
+
+.arrow-left:hover,
+.arrow-right:hover{
     opacity: 1;
-    transition: all 600ms ease-in-out;
 }
 
 .arrow-right{
-    left: auto;
     right: 0;
+    left: auto;
     text-align: right;
     background: linear-gradient(to right, transparent 0%, black 200%);
 }
 
-.arrow-left:hover, 
-.arrow-right:hover{
-    opacity: 1;
+.gallery{
+    display: flex;
+    flex-wrap: row nowrap;
+    gap: 15px;
 }
 
 .item{
     width: 600px;
     height: 400px;
     flex-shrink: 0;
-    opacity: 0.5;
     transition: all 600ms ease-in-out;
+  
 }
-
-.current-item{
-    opacity: 1;
-}
-
-.gallery-wrapper::-webkit-scrollbar{
-    display: none;
-    }
-    
-    /* Hide scrollbar for IE, edge and firefox*/
-.gallery-wrapper{
-    -ms-overflow-style: none; /* IE and Edge */ 
-    scrollbar-width: none; /* Firefox */
-}
-
 
 
 .wakke{
