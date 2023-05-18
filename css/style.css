@@ -310,7 +310,7 @@ main{
 
    .info,
    .app{
-     margin-left: 20px;  
+     margin-left: 0px; 
      align-items: center; 
     font-size: 25px;
    }
