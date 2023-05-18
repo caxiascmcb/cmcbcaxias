@@ -316,6 +316,6 @@ main{
    }
     
    .img-info{
-     padding-right: 30px;
+     display: none;
     }
 }
