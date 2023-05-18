@@ -310,7 +310,12 @@ main{
 
    .info,
    .app{
+     margin-left: 20px;  
      align-items: center; 
     font-size: 25px;
    }
+    
+   .img-info{
+     padding-right: 30px;
+    }
 }
