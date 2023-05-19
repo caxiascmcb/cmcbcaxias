@@ -141,6 +141,33 @@ main{
     border-bottom-right-radius: 10px;
 }   
 
+.container{
+    margin-top: 60px;
+}
+
+.before {
+    width: 80%;
+    height: 300px;
+}
+
+.before h2{
+    font-size: 35px;
+    color: var(--cor4);
+    text-shadow: 1px 1px 3px black;
+}
+
+.after{
+    width: 80%;
+    height: 300px;
+}
+
+.after h2{
+    font-size: 35px;
+    color: var(--cor4);
+    text-shadow: 1px 1px 3px black;
+}
+
+
 .media-footer{
     background-color: var(--cor5);
     color: white;
