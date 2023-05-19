@@ -194,9 +194,11 @@ main{
     text-decoration: none;
 }
 button{
+    height: 40px; 
     background-color: green;
     margin: 10px;
     padding: 6px 12px;
+    border-radius: 10px;
 }
 .bottom-pdf{
     margin-top: 5px;
